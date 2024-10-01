@@ -1,0 +1,11 @@
+#include <cstdio>
+
+int main() {
+    char s[1001];
+    scanf("%s", s);
+
+    for (int i = 0; s[i] != '\0'; i++) {
+        s[i] = 'a';   
+    }
+    printf("%s\n", s);
+}

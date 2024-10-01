@@ -1,0 +1,46 @@
+// {
+//     "configurations": [
+//         {
+//             "name": "Win32",
+//             "includePath": [
+//                 "${workspaceFolder}/**"
+//             ],
+//             "defines": [
+//                 "_DEBUG",
+//                 "UNICODE",
+//                 "_UNICODE"
+//             ],
+//             "compilerPath": "C:\\msys64\\ucrt64\\bin\\gcc.exe",
+//             "cStandard": "c11",
+//             "cppStandard": "gnu++14",
+//             "intelliSenseMode": "windows-gcc-x86"
+//         }
+//     ],
+//     "version": 4
+// }
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerPath": "C:\\msys64\\ucrt64\\bin\\gcc.exe",
+            "compilerArgs": [
+                "-Wall",
+                "-Wextra"
+            ],
+            "intelliSenseMode": "windows-gcc-x64",
+            "configurationProvider": "${default}",
+            "cStandard": "c17",
+            "cppStandard": "c++20",
+            "mergeConfigurations": true
+        }
+    ],
+    "version": 4
+}
